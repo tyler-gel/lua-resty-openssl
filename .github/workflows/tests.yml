@@ -33,7 +33,7 @@ jobs:
         - nginx: "1.19.3"
           openssl: "1.1.0l"
         # version that kong uses, for fips
-        - nginx: "1.17.8"
+        - nginx: "1.19.3"
           openssl: "1.0.2u"
           fips: "2.0.16"
           openssl_opts: "fips --with-fipsdir=/home/runner/work/cache/ssl/fips"
